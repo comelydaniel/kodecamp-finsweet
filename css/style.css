@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+     
+}
+
+.header .righthead-section {
+    display: flex;
+    align-items: center;
+}
+
+.righthead-section .navigations ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.righthead-section .navigations ul {
+    display: flex;
+    
+}
+
+.righthead-section .navigations ul li a {
+    text-decoration: none;
+    color: #1E1B1B;
+    ;
+}
+
+.righthead-section .navigations {
+    border-right: 1px solid grey;
+}
+
+ .righthead-section .road-assist {
+    display: flex;
+}
+
+.righthead-section .road-assist #call-sign {
+    padding: 0px 20px 0px 20px;
+}
+
+.intro-section {
+    padding: 35px 0px;
+}
+
+.intro-section .intro-img {
+    width: 50%;
+    background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650365219/work%20images/bg-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.intro-section .intro-text {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.intro-section .intro-text h1 {
+    font-size: 64px;
+    padding: 15px 0px;
+}
+
+.intro-section .intro-text #book-button {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.intro-section .intro-text .time-section {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-section .intro-text .time-section #clock-image {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.intro-section .intro-text .time-section #we-open {
+    color: #939191;
+}
+
+
+.quote-background {
+    background:  #E2E6E9;
+    height: 100vh;
+}
+
+.quote-section {
+    padding-top: 70px;
+}
+
+.quote-section .left-quote, .quote-section .right-quote {
+    width: 45%;
+}
+
+.quote-section .right-quote {
+    margin-left: 20px;
+}
+
+.quote-section .left-quote h2 {
+    font-size: 58px;
+    margin-bottom: 30px;
+}
+
+.quote-section .left-quote ul {
+    list-style: none;
+}
+
+.quote-section .left-quote ul li {
+   margin-bottom: 25px; 
+}
+
+
+.quote-section .left-quote ul li .list-one .list-one-text {
+    width: 50%;
+}
+
+.quote-section .left-quote ul li .list-one .list-image {
+    margin-right: 10px;
+}
+
+.quote-section .left-quote ul li .list-one .list-one-text h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.quote-section .left-quote ul li #par-know-more {
+   margin-left: 35px;
+}
+
+.quote-section .left-quote ul li #par-know-more p {
+    margin-right: 20px;
+}
+
+.quote-section .right-quote h3 {
+    font-size: 48px;
+}
+
+.quote-section .right-quote input {
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.quote-section .right-quote .input-box {
+    margin-top: 20px;
+}
+
+.quote-section .right-quote #get-quote {
+    background:  #FF6433;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 16px 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.process-container {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 80px;
+    height: 60vh;
+}
+
+.process-section .left-process {
+    margin-top: 30px;
+}
+
+.process-section .left-process h2 {
+    font-size: 50px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.process-section .left-process #left-par {
+    width: 60%;
+}
+
+.process-section .left-process .learn-more {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.process-section .right-process .process-one {
+    margin-bottom: 20px;
+}
+
+.process-section .right-process .process-one .text-process p {
+    width: 80%;
+}
+
+.process-section .right-process .process-one .text-process h3 {
+    margin-bottom: 10px;
+}
+
+.process-section .right-process .process-one .img-process {
+    margin-right: 10px;
+}
+
+.process-section .right-process .vertical-line {
+    border-left: 2px dotted #FF6433;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: -65px;
+    margin-bottom: 20px;
+}
+
+.offer-background {
+    background: #F2F2F2;
+}
+
+
+.offer-section {
+    padding-top: 30px;
+}
+
+.offer-section h6, .offer-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.offer-section h2 {
+    font-size: 58px;
+    width: 75%;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.offer-section h6 {
+    font-size: 24px;
+}
+
+.offer-section .offer-carosel .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background: #FFFFFF;
+    margin-right: 10px;
+    height: 25vh;
+    margin-bottom: 10px;
+}
+
+.offer-section .offer-carosel #box-color {
+    background: #FF6433;
+}
+
+.offer-section .offer-carosel .flex-column .carosel-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.offer-section .learn-services {
+    margin-left: 875px;
+    margin-top: 20px;
+}
+
+.offer-section .learn-services p {
+    margin-right: 10px;
+}
+
+.query-section {
+    background: #F2F2F2;
+
+}
+
+.query-section #query-sec {
+    padding-top: 60px;
+}
+
+.query-section .first-query-bg {
+    background: url(../img/car.image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+    
+}
+
+.query-section .first-query-bg .query-para {
+    height: 50vh;
+    background: #FF6433;
+    width: 72%;
+    color: #FFFFFF;
+    margin-left: 220px;
+}
+
+.query-section .first-query-bg .query-para p {
+    font-size: 38px;
+    width: 85%;
+    padding-top: 90px;
+    margin-left: 60px;
+}
+
+.query-section .second-query-bg {
+    background: url(../img/car.connect.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+} 
+
+.query-section .second-query-bg #orange-box {
+    height: 50vh;
+    width: 7%;
+    background: #FF6433;
+}
+
+.query-section .flex-portfolio {
+    display: flex;
+}
+
+.query-section .flex-portfolio .portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.query-section .flex-portfolio .portfolio h3 {
+    color: #661CE7;
+    font-size: 58px;
+}
+
+.query-section .flex-portfolio .portfolio p {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+
+.brand-section {
+    background: #FAFAFA;
+}
+
+.brand-section .brand-subsection {
+    padding: 50px 0px;
+}
+
+.brand-section .brand-subsection h3 {
+    text-align: center;
+    font-size: 43px;
+    padding-right:50px;
+}
+
+.brand-section .brand-subsection #brand-logo {
+    margin-top: 20px;
+}
