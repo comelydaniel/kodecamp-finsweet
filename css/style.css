@@ -271,6 +271,10 @@
     margin-bottom: 10px;
 }
 
+.offer-section .offer-carosel .flex-column:hover {
+    background-color: #FF6433;
+}
+
 .offer-section .offer-carosel #box-color {
     background: #FF6433;
 }
