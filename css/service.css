@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.book-service {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.container-service {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.service-intro {
+    padding: 40px 0;
+}
+
+.service-intro .left-service-intro {
+    background: url(../img/service.car1.png);
+    background-position: left;
+    background-size: cover;
+    min-height: 50vh;
+    width: 35%;
+}
+
+.service-intro .right-service-intro {
+    width: 65%;
+    background: #1E1B1B;
+    color: #FFFFFF;
+    padding: 80px;
+
+}
+
+.service-intro .right-service-intro h2 {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.service-intro .right-service-intro p {
+    width: 85%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.auto-section {
+    background: #F5F5F5;
+    padding: 50px;
+    width: 95%;
+
+}
+
+.auto-section .auto-diagnostic, .auto-section .auto-flex {
+    width: 50%;
+}
+
+.auto-section .auto-diagnostic {
+    background: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.auto-section .auto-diagnostic .auto-img {
+    background: url(../img/service.car2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 294px; 
+    
+}
+
+.auto-section .auto-diagnostic .auto-img {
+    width: 100%;
+}
+
+.auto-section .auto-diagnostic .auto-body h3 {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.auto-section .auto-diagnostic .auto-body #opacity {
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.auto-section .auto-diagnostic .auto-body a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #1E1B1B;
+}
+
+.auto-section .auto-diagnostic .auto-body a p {
+    font-size: 18px;
+    font-weight: 600; 
+    margin-right: 10px;
+}
+
+.auto-section .auto-flex .auto-box {
+    width: 40%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 10px;
+}
+
+.auto-section .auto-flex .auto-box:hover {
+    background: #FF6433;
+}
+
+.working-process {
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.working-process .work-how, .working-process .diagnose-how {
+    width: 45%;
+}
+
+.working-process .work-how h3 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.working-process .work-how ul li {
+    list-style: none;
+}
+
+.working-process .work-how ul li p {
+    width: 95%;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.working-process .work-how-img, .working-process .diagnose-img {
+    width: 45%;
+    justify-content: space-between;
+}
+
+.working-process .work-how-img #img-box-one {
+    background: url(../img/service.car3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    min-height: 60vh;
+}
+
+.working-process .work-how-img #img-box-two {
+    background: url(../img/service.car4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    min-height: 60vh;
+}
+
+.working-process .diagnose-img #img-box-three {
+    background: url(../img/service.car5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    min-height: 60vh;
+}
+
+.working-process .diagnose-img #img-box-four {
+    background: url(../img/service.car6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    min-height: 60vh;
+}
+
+.working-process .work-how-img {
+    margin-right: 40px;
+}
+
+.working-process .diagnose-how h3 {
+    font-weight: 700;
+    font-size: 38px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.working-process .diagnose-how p {
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.6;
+    width: 80%;
+}
+
+.working-process .diagnose-how, .working-process .diagnose-img {
+    margin-top: 100px;
+}
+
+@media (max-width: 769px) {
+    .flex-769-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-intro .left-service-intro {
+        background-position: center;
+    }
+
+    .service-intro .left-service-intro, .service-intro .right-service-intro {
+        width: 100%;
+    }
+
+    .service-intro .right-service-intro {
+        padding: 20px 20px 20px 50px;
+    }
+
+    .service-intro .right-service-intro h2 {
+        font-size: 45px;
+    }
+
+    .auto-section .auto-diagnostic, .auto-section .auto-flex {
+        width: 100%;
+    }
+
+    .auto-section .auto-diagnostic .auto-body h3 {
+        font-size: 30px;
+    }
+
+    .auto-section .auto-diagnostic .auto-body #opacity {
+        font-size: 20px;
+    }
+
+    .auto-section .auto-flex .auto-box {
+        width: 46%;
+        margin-right: 10px;
+    }
+
+    .working-process .work-how {
+        width: 100%;
+        order: 1;
+    }
+
+    .working-process .diagnose-how {
+        width: 100%;
+        margin-top: 20px;
+        order: 3;
+    }
+
+    .working-process .diagnose-img {
+        width: 100%;
+        margin-top: 20px;
+        order: 4;
+    }
+
+    .working-process .work-how-img {
+        width:100%;
+        margin-right: 0;
+        order: 2;
+    }
+}
+
+@media (max-width: 426px) {
+    .service-intro .left-service-intro, .service-intro .right-service-intro {
+        width: 100%;
+    }
+
+    .service-intro .right-service-intro {
+        padding: 20px;
+    }
+
+    .service-intro .right-service-intro h2 {
+        font-size: 35px;
+    }
+
+    .service-intro .right-service-intro p {
+        width: 100%;
+    }
+
+    .auto-section .auto-diagnostic, .auto-section .auto-flex {
+        width: 100%;
+    }
+
+    .auto-section .auto-diagnostic .auto-body h3 {
+        font-size: 20px;
+    }
+
+    .auto-section .auto-diagnostic .auto-body #opacity {
+        font-size: 15px;
+    }
+
+    .auto-section .auto-flex .auto-box {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .working-process .work-how, .working-process .diagnose-how, .working-process .work-how-img, .working-process .diagnose-img {
+        width: 100%;
+    }
+
+    .working-process .work-how h3 {
+        font-size: 30px;
+    }
+
+    .working-process .work-how ul li p {
+        font-size: 15px;
+    }
+
+    .working-process .work-how {
+        order: 1;
+    }
+
+    .working-process .work-how-img {
+        margin-right: 0;
+        order: 2;
+    }
+
+    .working-process .diagnose-how {
+        order: 3;
+        margin-top: 20px;
+    }
+
+    .working-process .diagnose-img {
+        order: 4;
+        margin-top: 20px;
+    }
+
+    .working-process .diagnose-how h3 {
+        font-size: 20px;
+    }
+}
+
+

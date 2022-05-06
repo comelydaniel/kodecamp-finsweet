@@ -64,7 +64,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .intro-section .intro-text {
@@ -184,7 +184,8 @@
     width: 70%;
     margin-left: 50px;
     margin-top: 80px;
-    height: 60vh;
+    min-height: 60vh;
+    padding-bottom: 20px;
 }
 
 .process-section .left-process {
@@ -267,7 +268,7 @@
     width: 25%;
     background: #FFFFFF;
     margin-right: 10px;
-    height: 25vh;
+    min-height: 25vh;
     margin-bottom: 10px;
 }
 
@@ -282,6 +283,7 @@
 .offer-section .offer-carosel .flex-column .carosel-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
@@ -309,13 +311,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    height: 50vh;
+    min-height: 50vh;
     width: 15%;
     
 }
 
 .query-section .query-para {
-    height: 50vh;
+    min-height: 50vh;
     background: #FF6433;
     width: 45%;
     color: #FFFFFF;
@@ -328,9 +330,19 @@
     margin-left: 50px;
 }
 
+.query-section .query-para .contact-button {
+    background: #1E1B1B;
+    border-radius: 12px;
+    padding: 16px 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px 0 10px 50px;
+}
+
 .query-section .second-query-bg {
     background: url(../img/car.connect.png);
-    height: 50vh;
+    min-height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -373,14 +385,20 @@
     padding-right:50px;
 }
 
-.brand-section .brand-subsection #brand-logo {
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-section .brand-subsection #brand-logo .brand-logo{
     margin-top: 20px;
+    width: 20%;
 }
 
 .review-section {
     background: #F2F2F2;
     padding: 80px 0px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .review-section h3 {
@@ -555,6 +573,9 @@
     width: 20%;
 }
 
+.footer-section #copy-write {
+    color: #939191;
+}
 
 .footer-section #about-us {
     width: 40%;
@@ -569,4 +590,476 @@
 .footer-section #about-us ul li a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+@media (max-width: 1025px) {
+    .quote-section .left-quote h2 {
+        font-size: 48px;
+    }
+
+    .quote-section .left-quote ul li .list-one .list-one-text {
+        width: 80%;
+    }
+
+    .review-section .review-lines {
+        margin-left: 350px;
+    }
+
+    .review-section .review-lines .flex-arrow {
+        margin-left: 250px;
+    }
+
+    .offer-section .learn-services {
+        margin-left: 620px;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .righthead-section .navigations ul li {
+        margin-right: 10px;
+    }
+
+    .righthead-section .road-assist #call-sign {
+        padding: 0 10px;
+    }
+
+    .intro-section .intro-text h1 {
+        font-size: 32px;
+    }
+
+    .quote-section .left-quote h2 {
+        font-size: 30px;
+    }
+    
+    .quote-section .left-quote ul li .list-one .list-one-text {
+        width: 80%;
+    }
+
+    .quote-section .left-quote ul li .list-one .list-one-text h5 {
+        font-size: 18px;
+    }
+
+    .quote-section .left-quote ul li {
+        margin-bottom: 15px;
+    }
+
+    .quote-section .right-quote h3 {
+        font-size: 25px;
+    }
+
+    .quote-section .right-quote input {
+        padding: 10px;
+    }
+
+    .process-section .left-process  {
+        margin-top: 20px;
+    }
+
+    .process-section .left-process h2 {
+        font-size: 27px;
+    }
+
+    .process-section .left-process #left-par {
+        width: 80%;
+    }
+
+    .process-section .right-process .process-one .text-process p {
+        width: 100%;
+    }
+
+    .offer-section h2 {
+        font-size: 30px;
+        margin-left: 70px;
+    }
+
+    .offer-section h6 {
+        font-size: 17px;
+    }
+
+    .offer-section .learn-services {
+        margin-left: 410px;
+    }
+
+    .offer-section .offer-carosel .flex-column {
+        min-height: 65vh;
+    }
+
+    .query-section .query-para p {
+        font-size: 25px;
+        padding-top: 45px;
+    }
+
+    .query-section .flex-portfolio .portfolio {
+        width: 20%;
+    }
+
+    .query-section .flex-portfolio {
+        justify-content: space-between;
+    }
+
+    .brand-section .brand-subsection h3 {
+        font-size: 35px;
+    }
+
+    .brand-section .brand-subsection #brand-logo .brand-logo {
+        width: 30%;
+    }
+
+    .review-section h3 {
+        font-size: 30px;
+    }
+
+    .review-section .flex-review .review-box .review-profile .profile-pic {
+        width: 15%;
+    }
+
+    .review-section .flex-review .review-box .review-para p, .review-section .flex-review .review-box .review-profile h6 {
+        font-size: 20px;
+    }
+
+    .review-section .review-lines {
+        margin-left: 250px;
+    }
+
+    .review-section .review-lines .flex-arrow {
+        margin-left: 145px;
+    }
+
+    .question-section h3 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .question-section {
+        width: 65%;
+    }
+
+    .question-section .question-box h6 {
+        font-size: 20px;
+    }
+
+    .question-section .question-box #orange-box {
+        width: 7%;
+    }
+
+    .contact-section {
+        padding: 35px 0;
+    }
+
+
+    .contact-section .right-contact {
+        margin-left: 80px;
+    }
+
+    .contact-section .left-contact h3 {
+        font-size: 35px;
+    }
+
+    .contact-section .right-contact .contact-address p {
+        font-size: 17px;
+    }
+
+    .contact-section .right-contact .contact-address h6 {
+        font-size: 12px;
+    }
+
+    .footer-section #footer-logo {
+        width: 10%;
+    }
+
+    .footer-section #copy-write {
+        width: 30%;
+    }
+
+    .footer-section #about-us {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 426px) {
+    .flex-sm-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .righthead-section {
+        align-items: flex-start;
+        display: none;
+    }
+
+    .header .righthead-section .navigations {
+        border: none;
+    }
+
+    .header .righthead-section .navigations ul li {
+        margin-top: 10px;
+    }
+
+    .header .righthead-section .road-assist {
+        margin-top: 10px;
+    }
+
+    .flex-sm-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-section .intro-text {
+        width: 100%;
+        order: 2;
+    }
+
+    .intro-section .intro-img {
+        width: 100%;
+        order: 1;
+    }
+
+    .intro-section .intro-text h1 {
+        font-size: 32px;
+        padding: 0;
+    }
+
+    .quote-section {
+        padding: 50px 0;
+    }
+
+    .quote-section .left-quote, .quote-section .right-quote {
+        width: 100%;
+    }
+
+    .quote-section .left-quote h2 {
+        font-size: 35px;
+    }
+
+    .quote-section .left-quote ul li .list-one .list-one-text {
+        width: 80%;
+    } 
+
+    .quote-section .left-quote ul li .list-one .list-one-text h5 {
+        font-size: 17px;
+    } 
+
+    .quote-section .left-quote ul li #par-know-more {
+        margin-left: 85px;
+    }
+
+    .quote-section .right-quote h3 {
+        font-size: 28px;
+    }
+
+    .quote-section .right-quote input {
+        padding: 7px;
+    }
+
+    .process-container {
+        margin-top: 0;
+        width: 80%;
+    }
+
+    .process-section .left-process {
+        margin-bottom: 30px;
+    }
+
+    .process-section .left-process h2 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .process-section .left-process #left-par {
+        width: 100%;
+    }
+
+    .offer-section h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .offer-section h6 {
+        font-size: 15px;
+    }
+
+    .flex-wrapped {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .offer-section .offer-carosel .flex-column {
+        width: 100%;
+    }
+
+    .offer-section .learn-services {
+        margin-left: 130px;
+    }
+
+    .query-section .first-query-bg {
+        width: 100%;
+        background-position: center;
+    }
+
+    .query-section .second-query-bg, .query-section .query-para {
+        width: 100%;
+    }
+
+    .query-section .query-para p {
+        font-size: 22px;
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .query-section .flex-portfolio .portfolio h3 {
+        font-size: 30px;
+    }
+
+    .query-section .flex-portfolio .portfolio p {
+        font-size: 20px;
+    }
+
+    .query-section .flex-portfolio .portfolio {
+        width: 50%;
+    }
+
+    .container-sm {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .brand-section .brand-subsection h3 {
+        padding: 0;
+        font-size: 35px;
+    }
+
+    .brand-section .brand-subsection #brand-logo .brand-logo {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    .review-section {
+        padding: 20px 0;
+    }
+
+    .review-section h3 {
+        width: 90%;
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .review-section .flex-review .review-box {
+        width: 100%;
+    }
+
+    .review-section .flex-review .review-box .review-profile .profile-pic {
+        width: 15%;
+    }
+
+    .review-section .flex-review .review-box .review-profile h6 {
+        font-size: 15px;
+    }
+
+    .review-section .flex-review .review-box .review-profile p {
+        font-size:12px;
+    }
+
+    .review-section .flex-review .review-box .review-para p {
+        font-size: 15px;
+    }
+
+    .review-section .review-lines {
+        margin-left: 100px;
+    }
+
+    .review-section .review-lines .flex-arrow {
+        margin-left: 20px;
+    }
+
+    .question-section {
+        width: 80%;
+    }
+
+    .question-section h3 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .question-section .question-box h6 {
+        font-size: 18px;
+    }
+
+    .question-section .question-box #orange-box {
+        width: 10%;
+    }
+
+    .contact-section {
+        padding: 30px;
+    }
+
+    .contact-section .left-contact, .contact-section .right-contact {
+        width: 100%;
+    }
+
+    .contact-section .left-contact h3 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .contact-section .right-contact {
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section .right-contact .contact-address h6 {
+        font-size: 14px;
+    }
+
+    .contact-section .right-contact .contact-address p {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .footer-section {
+        padding: 20px 0;
+    }
+
+    .footer-section #footer-logo, .footer-section #copy-write, .footer-section #about-us {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-section #about-us ul li {
+        margin-bottom: 7px;
+    }
+
+    .footer-section #about-us {
+        display: none;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .review-section .review-lines {
+        margin-left: 60px;
+    }
+
+    .offer-section .learn-services {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 321px) {
+    .brand-section .brand-subsection #brand-logo .brand-logo {
+        width: 50%;
+    }
+    
+    .review-section .review-lines{
+        margin-left: 20px;
+    }
+
+    .offer-section .learn-services {
+        margin-left: 60px;
+    }
+
 }
