@@ -251,6 +251,7 @@
     .auto-section .auto-flex .auto-box {
         width: 46%;
         margin-right: 10px;
+        min-height: 20vh;
     }
 
     .working-process .work-how {
@@ -308,7 +309,9 @@
 
     .auto-section .auto-flex .auto-box {
         width: 100%;
-        min-height: 50vh;
+        min-height: 30vh;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .working-process .work-how, .working-process .diagnose-how, .working-process .work-how-img, .working-process .diagnose-img {

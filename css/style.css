@@ -682,7 +682,7 @@
     }
 
     .offer-section .offer-carosel .flex-column {
-        min-height: 65vh;
+        min-height: 40vh;
     }
 
     .query-section .query-para p {
@@ -703,7 +703,7 @@
     }
 
     .brand-section .brand-subsection #brand-logo .brand-logo {
-        width: 30%;
+        width: 40%;
     }
 
     .review-section h3 {
@@ -788,7 +788,6 @@
 
     .header .righthead-section {
         align-items: flex-start;
-        display: none;
     }
 
     .header .righthead-section .navigations {
@@ -891,6 +890,7 @@
 
     .offer-section .offer-carosel .flex-column {
         width: 100%;
+        min-height: 25vh;
     }
 
     .offer-section .learn-services {
@@ -904,6 +904,10 @@
 
     .query-section .second-query-bg, .query-section .query-para {
         width: 100%;
+    }
+
+    .query-section .query-para {
+        min-height: 30vh;
     }
 
     .query-section .query-para p {
@@ -935,8 +939,8 @@
     }
 
     .brand-section .brand-subsection #brand-logo .brand-logo {
-        width: 40%;
-        margin-right: 20px;
+        width: 100%;
+        align-items: center;
     }
 
     .review-section {
@@ -1050,10 +1054,10 @@
 }
 
 @media (max-width: 321px) {
-    .brand-section .brand-subsection #brand-logo .brand-logo {
-        width: 50%;
+    .quote-section .left-quote ul li #par-know-more {
+        margin-left: 40px;
     }
-    
+
     .review-section .review-lines{
         margin-left: 20px;
     }
